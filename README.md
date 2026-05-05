@@ -47,7 +47,9 @@ Based on the analysis, the customers are divided into 4 distinct groups:
 
 ## 📈 4. Visualizations
 ![Customer Segments](Capture200.PNG)
+
 *The 2D PCA projection highlights the clear separation between segments, validating the K-Means clustering approach.*
+
 
 ---
 ## 5. Strategic Business Recommendations (Consulting Insights)
