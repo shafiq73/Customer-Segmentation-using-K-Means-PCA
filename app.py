@@ -70,4 +70,4 @@ with col2:
 # 6. Cluster Summary Table
 st.subheader("📋 Cluster Metrics Summary")
 summary = df.groupby('Cluster')[['Age', 'Annual_Income', 'Spending_Score']].mean().reset_index()
-st.dataframe(summary.style.format("{:.1f}"))
+st.dataframe(summary.style.format({'Age': '{:.1f}', 'Annual_Income': '{:.1f}', 'Spending_Score': '{:.1f}'}))
